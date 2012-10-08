@@ -1,14 +1,14 @@
 /**
- * ----------     CardManager API     ----------
+ * ----------    Install CardManager API     ----------
  * Universidade Federal do Pampa; 
  * Graduação: Engenharia de Software; 
  * Disciplina: Práticas de Desenvolvimento de Software; 
  * Professor: Wagner de Melo Reck;
  * Semestre: 5° - 2012/01
- * @author Juliano Rodovalho & Lucas Capanelli
+ * @author Juliano Rodovalho
  * @version 0.2
  * 
- * Copyright (c) 2012 Juliano Rodovalho & Lucas Capanelli
+ * Copyright (c) 2012 Juliano Rodovalho
  * 
  *  Este arquivo faz parte da biblioteca Card_Manager
  * 
@@ -59,8 +59,8 @@ public class Carta {
     }
 
     /**
-     * Responsável por setar o valor da variável numeCarta, 
-     * a partir da informação recebida por parâmetro(numeroCarta).
+     * Responsável por setar o valor da variável numeCarta, a partir da
+     * informação recebida por parâmetro(numeroCarta).
      *
      * @param int numeroCarta
      */
@@ -70,8 +70,8 @@ public class Carta {
     }
 
     /**
-     *Responsável por buscar o valor da variável naipeCarta.
-     * 
+     * Responsável por buscar o valor da variável naipeCarta.
+     *
      * @return String naipeCarta
      */
     public String getNaipeCarta() {
@@ -80,9 +80,9 @@ public class Carta {
     }
 
     /**
-     * Responsável por setar o valor da variável naipeCarta, 
-     * a partir da informação recebida por parâmetro(naipes).
-     * 
+     * Responsável por setar o valor da variável naipeCarta, a partir da
+     * informação recebida por parâmetro(naipes).
+     *
      * @param String naipes
      */
     public void setNaipeCarta(String naipes) {

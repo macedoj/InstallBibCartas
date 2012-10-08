@@ -1,14 +1,14 @@
 /**
- * ----------     CardManager API     ----------
+ * ----------    Install CardManager API     ----------
  * Universidade Federal do Pampa; 
  * Graduação: Engenharia de Software; 
  * Disciplina: Práticas de Desenvolvimento de Software; 
  * Professor: Wagner de Melo Reck;
  * Semestre: 5° - 2012/01
- * @author Juliano Rodovalho & Lucas Capanelli
+ * @author Juliano Rodovalho
  * @version 0.2
  * 
- * Copyright (c) 2012 Juliano Rodovalho & Lucas Capanelli
+ * Copyright (c) 2012 Juliano Rodovalho
  * 
  *  Este arquivo faz parte da biblioteca Card_Manager
  * 

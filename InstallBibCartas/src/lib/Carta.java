@@ -28,7 +28,7 @@
  * 
  */
 
-package installbibcartas;
+package lib;
 
 public class Carta {
 

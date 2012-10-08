@@ -30,6 +30,7 @@
 package installbibcartas;
 
 import java.util.Scanner;
+import lib.*;
 
 /**
  *
@@ -37,7 +38,7 @@ import java.util.Scanner;
  * @version 0.1
  * @since 01/10/2012
  */
-public class Jogador {
+public class Jogador{
 
     /**
      * Variáveis que definem as caracteristicas do baralho a ser criado.
@@ -70,7 +71,8 @@ public class Jogador {
          * Cria uma instância(Objeto) da classe Baralho_Cartas.java, a qual,
          * jutamente com a classe Carta.java, são as bibliotecas.
          */
-        Baralho_Cartas baralho = new Baralho_Cartas();
+        Baralho_Cartas baralho;
+        baralho = new Baralho_Cartas();
 
         /**
          * Variaveis locais.

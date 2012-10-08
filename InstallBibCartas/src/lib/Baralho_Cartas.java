@@ -28,7 +28,7 @@
  * 
  */
 
-package installbibcartas;
+package lib;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -82,7 +82,7 @@ public class Baralho_Cartas {
      *
      * @return número de cartas no baralho
      */
-    int getNumCartas() {
+    public int getNumCartas() {
 
         return this.cartas.size();
 

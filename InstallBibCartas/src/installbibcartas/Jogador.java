@@ -38,7 +38,7 @@ import lib.*;
  * @version 0.1
  * @since 01/10/2012
  */
-public class Jogador{
+public class Jogador {
 
     /**
      * Variáveis que definem as caracteristicas do baralho a ser criado.

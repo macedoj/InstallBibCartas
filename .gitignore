@@ -4,9 +4,6 @@
 *.jar
 *.war
 *.ear
-/InstallBibCartas/nbproject/private/
-/InstallBibCartas/build/
-/InstallBibCartas/dist/
 /API_CardManager/nbproject/private/
 /API_CardManager/build/
 /API_CardManager/dist/

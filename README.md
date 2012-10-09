@@ -6,10 +6,10 @@ Instalador para a biblioteca 'CardManager' de manipulação de baralho.
 
 * Java 1.5 ou versão superior => [http://www.java.com/pt_BR/download/]
 * IzPack 4.3.5 ou versão superior => [http://izpack.org/downloads/]
- * Certifique-se que o diretório 'bin' do IzPack está no 'path' de execução de seu sistema, por exemplo: 
+* Certifique-se que o diretório 'bin' do IzPack está no 'path' de execução de seu sistema, por exemplo: 
 
 	;C:\Program Files\IzPack\bin
- 
+
 Reinicie seu sistema operacional apos a inclusão do caminho no 'path'.
  
 ## Instalação

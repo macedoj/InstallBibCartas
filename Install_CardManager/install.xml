@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<installation version="1.0">
+    <info>
+        <appname> CardManager API </appname>
+        <appversion>1.0</appversion>
+		 <appsubpath>CardManagerAPI</appsubpath>
+        <authors>
+            <author name="Juliano Rodovalho" email="j.rodovalho.m@gmail.com"/>
+        </authors>
+        <url>https://github.com/JulianoR/InstallBibCartas</url>
+        <javaversion>1.5</javaversion>
+		<uninstaller name="Uninstaller.jar" write="yes"/>
+        <requiresjdk>no</requiresjdk>
+        <run-privileged condition="izpack.windowsinstall|izpack.macinstall"/>
+    </info>
+
+    <guiprefs width="480" height="320" resizable="yes"> 
+        <laf name="substance">
+            <param name="variant" value="business-blue"/>
+            <os family="windows"/>
+            <os family="unix"/>
+            <os family="mac"/>
+        </laf>
+        <modifier key="useFlags" value="yes"/>
+        <modifier key="langDisplayType" value="default"/>  
+    </guiprefs>
+
+    <locale>
+        <langpack iso3="por"/>
+    </locale>
+
+    <resources>
+        <res src="docs/LEIAME.txt" id="InfoPanel.info"/>
+        <res src="docs/COPYING.txt" id="LicencePanel.licence"/>
+    </resources>
+
+    <panels>
+        <panel classname="CheckedHelloPanel"/>
+        <panel classname="InfoPanel"/>
+        <panel classname="LicencePanel"/>
+        <panel classname="TargetPanel"/>
+        <panel classname="PacksPanel"/>
+        <panel classname="ShortcutPanel"/>
+        <panel classname="InstallPanel"/>
+        <panel classname="SimpleFinishPanel"/>
+    </panels>
+
+    <packs>
+        <pack name="Jogo baseado na API CardManager" required="yes">
+            <description>Contém os arquivos necessários para a execução do Jogo</description>
+            <!-- <file src="imagens/produto.ico" targetdir="$INSTALL_PATH"> -->
+            <fileset dir="dist" targetdir="$INSTALL_PATH">
+                <include name="**/*" />
+            </fileset>
+        </pack>
+		
+        <pack name="API CardManager"  preselected="yes"  required="yes">
+            <description>Sources da biblioteca CardManager</description>
+            <file src="src" targetdir="$INSTALL_PATH"/>
+        </pack>
+
+        <pack name="Documentação" preselected="no" required="no">
+            <description>Contém a documentação do programa</description>
+            <file src="docs" targetdir="$INSTALL_PATH/documentation/"/>
+        </pack>
+    </packs>
+    
+    <native type="izpack" name="ShellLink.dll"/>
+    <native type="izpack" name="ShellLink_x64.dll"/>
+
+</installation>

@@ -10,11 +10,11 @@ Instalador para a biblioteca 'CardManager' de manipulação de baralho.
 
 	;C:\Program Files\IzPack\bin
  
- Reinicie seu sistema operacional apos a inclusão do caminho no 'path'.
+Reinicie seu sistema operacional apos a inclusão do caminho no 'path'.
  
 ## Instalação
  
- Abra uma janela DOS-cmd(Windows) ou Terminal(Unix), navegue até o diretório raiz do projeto e digite:
+Abra uma janela DOS-cmd(Windows) ou Terminal(Unix), navegue até o diretório raiz do projeto e digite:
  
 	compile install.xml -b . -o install.jar -k standard
 	
